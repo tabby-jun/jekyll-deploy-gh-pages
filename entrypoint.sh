@@ -1,4 +1,5 @@
 #!/bin/sh
+gem install bundler
 echo '👍 ENTRYPOINT HAS STARTED—INSTALLING THE GEM BUNDLE'
 bundle install
 bundle list | grep "jekyll ("
